@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8"?>
+
+<!-- Copyright ©2020 Clovis Silveira                                    -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 10-05-2020                                          -->
+<!--  file: Covid-19.xml                                                -->
+
+
+
+
+
+<!-- Várias perguntas e uma respostas
+      Manual Guia de implementação de protocolos de retorno 
+      das atividades presenciais nas escolas de educação básica
+      MINISTÉRIO DA EDUCAÇÃO -->
+
+
+<category>
+      <pattern> O que é febre amarela </pattern>
+      <template> É uma doença trismitida por especies de mosquitos, tem sintomas e em casos graves tem risco de morte </template>
+</category>
+
+
+<category>
+      <pattern> Vacina da Febre amarela</pattern>
+      <template> A vacina contra a Febre amrela é obrigatória para pessoas que residam ou que pretendam viajar para áreas endêmicas da doença
+       </template>
+</category>
+
+
+<category>
+      <pattern> Efeitos da febre amarela </pattern>
+      <template>  O virus atinge o figado principalmente outros efeitos sao:Dor de cabeça, febre e pele amarela
+       </template>
+</category>
+
+
+<category>
+      <pattern> Como se infecta pela Febre Amarela? </pattern>
+      <template>  O mosquito Aedes aegypti transmite  a doença para a pessoas com uma picada,essa doença nao é trsansimisivel entre pessoas.
+       </template>
+</category>
+
+
+<category>
+      <pattern> O que você sabe sobre Febre Amarela </pattern>
+      <template> Eu sei sobre: <br/>
+             <br/>
+            Preucaçoes  <br/>
+            Tratamento <br/>
+            Causas <br/>
+       </template>
+</category>
+
+
+
+</aiml>
